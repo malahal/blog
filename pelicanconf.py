@@ -5,7 +5,10 @@ from __future__ import unicode_literals
 AUTHOR = u'Malahal Naineni'
 SITENAME = u'Malahal blog'
 SITEURL = 'file:///home/malahal/pelican/output'
-THEME = 'notmyidea'
+THEME = '../pelican-themes/elegant'
+
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ['gallery']
 
 PATH = 'content'
 TIMEZONE = 'Asia/Calcutta'
